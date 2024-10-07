@@ -89,7 +89,22 @@ const livros = {
                     editora: "Novatec",
                     ano: 2022,
                     ondeVender: "https://www.americanas.com.br/produto/126138371/livro-seguranca-para-desenvolvedores-web-usando-jafascript-html-e-css"
+                },
+                {
+                    titulo: "Segurança cibernética industrial",
+                    imagem: "https://a-static.mlcdn.com.br/450x450/livro-seguranca-cibernetica-industrial/cliquebooks/935033-5/730ad429b5814d8ae66d10fe6f6a3adb.jpg",
+                    editora: "Alta Books",
+                    ano: 2021,
+                    ondeVender: "https://m.magazineluiza.com.br/livro-seguranca-cibernetica-industrial/p/ghdee07k68/li/lgta/"
+                },
+                {
+                    titulo: "Defensive Security Handbook: Best Practices for Securing Infrastructure",
+                    imagem: "https://m.media-amazon.com/images/I/815rMhSSlcL._SL1500_.jpg",
+                    editora: "Novatec",
+                    ano: 2024,
+                    ondeVender: "https://www.amazon.com.br/Defensive-Security-Handbook-Practices-Infrastructure/dp/1098127242"
                 }
+
             ],
             'conhecimento-geral': [
                 {
@@ -133,7 +148,7 @@ const livros = {
             ],
             'banco-de-dados': [
                 {
-                    titulo: "Introdução à Linguagem SQL: Abordagem Prática Para Inicianteso",
+                    titulo: "Introdução à Linguagem SQL: Abordagem Prática Para Iniciantes",
                     imagem: "https://m.media-amazon.com/images/I/711siL1zU1L._SL1297_.jpg",
                     editora: "Novatec",
                     ano: 2016,
@@ -145,6 +160,13 @@ const livros = {
                     editora: "Novatec",
                     ano: 2006,
                     ondeVender: "https://www.estantevirtual.com.br/livro/uml-uma-abordagem-pratica-19M-1499-000"
+                },
+                {
+                    titulo: "SQL- Guia Prático",
+                    imagem: "https://a-static.mlcdn.com.br/800x560/sql-guia-pratico-um-guia-para-o-uso-de-sql/zambonibooks/78179/379c873c2595f19697223696472ce4a0.jpeg",
+                    editora: "Novatec",
+                    ano: 2023,
+                    ondeVender: "https://www.amazon.com.br/SQL-Guia-Pr%C3%A1tico-Para-uso/dp/8575228315"
                 }
             ],
             jogos: [
@@ -161,8 +183,42 @@ const livros = {
                     editora: "Dey Street Books",
                     ano: 2015,
                     ondeVender: "https://www.amazon.com.br/Console-Wars-Nintendo-Defined-Generation/dp/0062276700/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1Z0M5KDZ8F97M&dib=eyJ2IjoiMSJ9.9H83K26cvfT76CiIknQrrN2cATgKpQw4nUEfZU-czWCQ8mfuGuEmyxxb0IgVSVERcEc4qtM_wmkZWvHQd5wsCvtx1DrWRbfl8wdhsSNQC-FDb3fGBujj3oyjaw4GgeUnN_inGYwt4vGhUUNBPMUcQ9WqQ4Iyiw8bNSqXlDjeFr4Ll3viPwD3JZV8jEX-f693Xtud3PXs7JfeUXOKfJwA7g-7cNbPcAleRj12YoYpLCo.jjgQz2oXuEDUGtQWHDMzvhOjwXOPvFto8eIT25DB4wE&dib_tag=se&keywords=console+wars&qid=1728261842&s=books&sprefix=console+war%2Cstripbooks%2C271&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+                },
+                {
+                    titulo: "A Handheld History: A comprehensive celebration of handheld consoles",
+                    imagem: "https://m.media-amazon.com/images/I/71tm7qtbauL._SL1281_.jpg",
+                    editora: "Lost in Cult",
+                    ano: 2023,
+                    ondeVender: "https://www.amazon.com.br/Handheld-History-Lost-Cult/dp/0008598177/ref=pd_sim_d_sccl_2_1/138-9936552-2423128?pd_rd_w=AQOqR&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=13DAPRGHD6CDEWMJFKGE&pd_rd_wg=AxWhP&pd_rd_r=c7115f3f-2f87-42f5-be4d-301ef67621b3&pd_rd_i=0008598177&psc=1"
+                }
+            ],
+            'ia': [
+                {
+                    titulo: "Inteligência Artificial - Uma Abordagem Moderna",
+                    imagem: "https://m.media-amazon.com/images/I/81Sc7DUiVmL._SL1500_.jpg",
+                    editora: "GEN LTC",
+                    ano: 2022,
+                    ondeVender: "https://www.amazon.com.br/Intelig%C3%AAncia-Artificial-Uma-Abordagem-Moderna/dp/8595158878"
+                },
+                {
+                    titulo: "2041: Como a inteligência artificial vai mudar sua vida nas próximas décadas",
+                    imagem: "https://m.media-amazon.com/images/I/71FYolqY2iL._SL1500_.jpg",
+                    editora: "Globo Livros",
+                    ano: 2024,
+                    ondeVender: "https://www.amazon.com.br/2041-intelig%C3%AAncia-artificial-pr%C3%B3ximas-d%C3%A9cadas/dp/6559870537"
+                },
+                {
+                    titulo: "Inteligência artificial ",
+                    imagem: "https://m.media-amazon.com/images/I/81LVeClECoL._SL1500_.jpg",
+                    editora: "Globo Livros",
+                    ano: 2019,
+                    ondeVender: "https://www.amazon.com.br/Intelig%C3%AAncia-artificial-Kai-Fu-Lee/dp/6580634324/ref=pd_lpo_sccl_1/138-9936552-2423128?pd_rd_w=zdgN7&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=074CQQKBQ4YQJET1P543&pd_rd_wg=sP71X&pd_rd_r=da6a182c-2430-4e40-b165-c39ce480a11d&pd_rd_i=6580634324&psc=1"
                 }
             ]
+
+
+
+            
         };
 
         const categoriaSelect = document.getElementById('categoria');
